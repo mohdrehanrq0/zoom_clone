@@ -3,7 +3,7 @@ const Socket = io('/');
 
 var roomGrid = document.getElementById('room-grid');
 var vedioElement = document.createElement('video');
-vedioElement.muted = true;
+// vedioElement.muted = true;
 
 // var mypeer = new Peer(undefined, {
 //     path: '/peerjs',
